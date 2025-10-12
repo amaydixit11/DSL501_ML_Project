@@ -1,0 +1,22 @@
+Dataset,Config,Speedup,RMI (μs),Binary (μs),Avg Error,Build (ms)
+linear,RMI-Linear-50,0.02x,789.65,15.48,126.9,145.0
+linear,RMI-Linear-100,0.03x,911.86,23.16,63.1,162.4
+linear,RMI-Poly-50,0.01x,917.41,12.41,127.1,364.0
+linear_noisy,RMI-Linear-50,0.02x,586.01,11.63,127.3,102.9
+linear_noisy,RMI-Linear-100,0.02x,808.99,12.27,63.6,170.6
+linear_noisy,RMI-Poly-50,0.02x,1053.12,21.65,127.3,172.0
+quadratic,RMI-Linear-50,0.02x,1168.48,24.57,2510.8,73.6
+quadratic,RMI-Linear-100,0.02x,363.12,7.42,2696.7,307.5
+quadratic,RMI-Poly-50,0.01x,1176.89,7.46,2510.7,72.3
+cubic,RMI-Linear-50,0.02x,322.02,7.48,4212.0,143.3
+cubic,RMI-Linear-100,0.02x,754.06,17.09,4456.5,88.3
+cubic,RMI-Poly-50,0.00x,1610.40,6.96,4211.8,207.8
+step,RMI-Linear-50,0.03x,223.00,6.09,353.0,42.8
+step,RMI-Linear-100,0.02x,234.25,5.68,428.5,76.8
+step,RMI-Poly-50,0.02x,389.04,6.56,353.1,69.0
+clustered,RMI-Linear-50,0.03x,246.15,7.26,1982.4,44.6
+clustered,RMI-Linear-100,0.04x,845.13,32.44,2183.1,63.3
+clustered,RMI-Poly-50,0.02x,1741.08,28.16,1984.1,424.0
+exponential,RMI-Linear-50,0.03x,806.80,24.63,4755.4,177.1
+exponential,RMI-Linear-100,0.01x,860.72,9.48,4939.4,1163.5
+exponential,RMI-Poly-50,0.04x,736.00,29.50,4785.4,86.4
